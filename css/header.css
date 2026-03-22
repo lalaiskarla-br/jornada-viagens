@@ -1,14 +1,24 @@
-header{
+ header{
     background-color: var(--background-secondary-color);
-    width: 100%;
-    height: 168px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 38px 48px;
+ }
+
+
+.menu{
+    width: 32px;
+    height: 32px;
 
 }
 
-.logo{
-    display: inline-block;
-    width: 68px;
-    height: 64px;
-    margin: 37px 0 0 48px;
-
+input[type='checkbox']{
+    display: none;
 }
+
+ nav{
+    display: none;
+}
+ 
