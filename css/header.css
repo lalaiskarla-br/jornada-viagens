@@ -13,12 +13,10 @@
     height: 32px;
 
 }
-
-input[type='checkbox']{
+nav{
     display: none;
 }
 
- nav{
-    display: none;
+input[type='checkbox']:checked ~ nav{
+    display: block;
 }
- 
