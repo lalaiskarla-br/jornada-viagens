@@ -1,52 +1,68 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: var(--text-font);
-      color: var(--text-primary-color);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--text-font);
+}
 
+:root {
+  --primary-color: #b81515;
+  --secondary-color: #8f0101;
+
+  --background-primary-color: #ffffff;
+  --background-secondary-color: #000000;
+  --background-tertiary-color: #f5f5f5;
+
+  --text-primary-color: #222222;
+  --text-secondary-color: #ffffff;
+  --text-tertiary-color: #f5f5f5;
+
+  --icon-color: #8c8c8c;
+
+  --text-font: "Montserrat", sans-serif;
+
+  --title-weight: 700;
+  --text-weight: 400;
+  --menu-text-weight: 500;
+  --card-title-weight: 600;
+}
+
+body{
+    color: var(--text-primary-color);
 
 }
 
-
-
-:root{
-    --primary-color: #B81515;
-    --secondary-color: #8F0101;
-
-
-    --background-primary-color: #FFFFFF;
-    --background-secondary-color:#000000;
-    --background-tertiary-color:#F5F5F5;
-
-    --text-primary-color: #222222;
-    --text-secondary-color: #FFFFFF;
-    --text-tertiary-color: #F5F5F5;
-
-    --icon-color: #8C8C8C;
-
-    --text-font: "Montserrat", sans-serif;
-    
-    --title-weight: 700;
-    --text-weight: 400;
-    --menu-text-weight: 500;
-    --card-title-weight: 600;
-}   
-
-.offers{
+.section-title {
+  font-weight: var(--title-weight);
+  font-size: 32px;
+  text-align: center;
 }
-.offers h3{
-    font-weight: var(--title-weight);
-    font-size: 32px;
-        text-align: center;
 
+hr {
+  background-color: var(--primary-color);
+  width: 180px;
+  height: 4px;
+  border: none;
+  margin: 16px auto 32px;
+}
+
+.card a {
+  text-decoration: none;
+  color: var(--text-secondary-color);
+  background-color: var(--primary-color);
+  padding: 16px 0;
+  width: 280px;
+  margin: 0 auto;
+  border-radius:8px;
+}
+
+.card a:hover{
+      background-color: var(--secondary-color);
 
 }
 
-.offers hr{
-    background-color: var(--primary-color);
-    width: 180px;
-    height: 4px;
-    border: none;
-    margin: 16px auto 32px;
+@media screen and (min-width: 1024px) {
+  .offers hr {
+    margin: 16px auto 64px;
+  }
 }
