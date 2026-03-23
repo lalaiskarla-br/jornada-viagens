@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 38px 48px;
+    position: relative;
  }
 
 
@@ -19,4 +20,21 @@ nav{
 
 input[type='checkbox']:checked ~ nav{
     display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--background-secondary-color);
+}
+
+.list-links li {
+    list-style: none;
+    margin: 16px 0;
+
+}
+.list-links li a{
+    text-decoration: none;
+    color:  var( --text-secondary-color);
+    font-size: 24px;
+    font-weight: var( --menu-text-weight);
 }
