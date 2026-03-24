@@ -31,18 +31,23 @@ body {
   color: var(--text-primary-color);
 }
 
-.section-title {
+ .section-title h3{
   font-weight: var(--title-weight);
   font-size: 32px;
   text-align: center;
+  margin-top: 88px;
 }
 
-hr {
+.section-title hr  {
   background-color: var(--primary-color);
   width: 180px;
   height: 4px;
   border: none;
   margin: 16px auto 32px;
+}
+
+a{
+  cursor: pointer;
 }
 
 .button {
@@ -56,7 +61,11 @@ hr {
 }
 
 @media screen and (min-width: 1024px) {
-  .offers hr {
+  .section-title h3 {
+    margin-top: 104px;
+  }
+
+  .section-title hr {
     margin: 16px auto 64px;
   }
 
