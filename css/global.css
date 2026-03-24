@@ -35,6 +35,7 @@ body {
   font-weight: var(--title-weight);
   font-size: 32px;
   text-align: center;
+  margin-top: 88px;
 }
 
 hr {
@@ -43,6 +44,10 @@ hr {
   height: 4px;
   border: none;
   margin: 16px auto 32px;
+}
+
+a{
+  cursor: pointer;
 }
 
 .button {
@@ -56,7 +61,11 @@ hr {
 }
 
 @media screen and (min-width: 1024px) {
-  .offers hr {
+  .section-title {
+    margin-top: 104px;
+  }
+
+  hr {
     margin: 16px auto 64px;
   }
 
