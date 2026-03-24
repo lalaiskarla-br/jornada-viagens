@@ -27,9 +27,8 @@
   --card-title-weight: 600;
 }
 
-body{
-    color: var(--text-primary-color);
-
+body {
+  color: var(--text-primary-color);
 }
 
 .section-title {
@@ -46,23 +45,23 @@ hr {
   margin: 16px auto 32px;
 }
 
-.card a {
+.button {
   text-decoration: none;
   color: var(--text-secondary-color);
   background-color: var(--primary-color);
   padding: 16px 0;
   width: 280px;
   margin: 0 auto;
-  border-radius:8px;
-}
-
-.card a:hover{
-      background-color: var(--secondary-color);
-
+  border-radius: 8px;
 }
 
 @media screen and (min-width: 1024px) {
   .offers hr {
     margin: 16px auto 64px;
+  }
+
+  .button:hover {
+    background-color: var(--secondary-color);
+    transition: 0.3s ease;
   }
 }
