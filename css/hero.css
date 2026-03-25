@@ -2,8 +2,9 @@
   background-image: url(../img/mobile/homepage/banner\ homepage.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50vh;
-  width: 100vw;
+  height: 360px;
+  width: 100%;
+  background-position: center;
 }
 
 .hero h2 {
@@ -16,9 +17,11 @@
 
 @media screen and (min-width: 768px) {
   .hero-img {
-    background-image: url(../img/tablet/homepage/banner\ tablet.png);
+    background-image: url(../img/tablet/homepage/banner-tablet.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 620px;
+    width: 100%;
   }
 
   .hero h2 {
@@ -31,6 +34,8 @@
     background-image: url(../img/desktop/homepage/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 620px;
+    width: 100%;
   }
 
   .hero h2 {
