@@ -61,6 +61,17 @@ a {
   font-weight: var(--title-weight);
 }
 
+.text-content h4 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.text-content p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  text-align: justify;
+}
+
 @media screen and (min-width: 1024px) {
   .section-title h3 {
     margin-top: 104px;
