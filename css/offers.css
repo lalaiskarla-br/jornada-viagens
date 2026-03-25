@@ -24,7 +24,7 @@
   margin-bottom: 8px;
 }
 
-.card h4 {
+.card h2 {
   font-size: 40px;
 }
 
@@ -70,7 +70,7 @@
     width: 420px;
   }
 
-  .card h4 {
+  .card h2 {
     font-size: 48px;
   }
   .card span {
