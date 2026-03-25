@@ -6,8 +6,7 @@
   list-style: none;
 }
 
-.list-categories li {
-}
+
 .card-categories {
   display: flex;
   flex-direction: column;
