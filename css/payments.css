@@ -1,0 +1,97 @@
+.content {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  margin: 0 1.5rem;
+}
+
+.text-content {
+  text-align: left;
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+}
+
+.gallery-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 254px auto;
+  grid-template-areas:
+    "first-img second-img"
+    "third-img";
+  height: 460px;
+  width: 100%;
+  gap: 24px;
+}
+
+.first-img {
+  grid-area: "first-img";
+  background-image: url(../img/mobile/homepage/gallery-1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.second-img {
+  grid-area: "second-img";
+  background-image: url(../img/mobile/homepage/gallery-2.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.third-img {
+  grid-area: "third-img";
+  background-image: url(../img/mobile/homepage/gallery-3.png);
+  grid-column: span 2;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    margin: 0 3.75rem;
+  }
+  .first-img {
+    background-image: url(../img/tablet/homepage/gallery-1.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .second-img {
+    background-image: url(../img/tablet/homepage/gallery-2.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .third-img {
+    background-image: url(../img/tablet/homepage/gallery-3.png);
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .content {
+    flex-direction: row;
+  }
+
+  .text-content {
+    width: 28rem;
+  }
+  .first-img {
+    background-image: url(../img/desktop/homepage/gallery-1.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .second-img {
+    background-image: url(../img/desktop/homepage/gallery-2.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .third-img {
+    background-image: url(../img/desktop/homepage/gallery-3.png);
+    background-position: center;
+    background-size: cover;
+  }
+}
