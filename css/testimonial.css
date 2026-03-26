@@ -1,5 +1,5 @@
-.testimonial{
-    margin: 0 24px;
+.testimonial {
+  margin: 0 24px;
 }
 .testimonial-content {
   display: flex;
@@ -11,7 +11,7 @@
 .testimonial-content article > p {
   font-size: 16px;
   font-weight: var(--text-weight);
-   margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .profile {
@@ -35,7 +35,6 @@
   align-self: end;
   font-size: 20px;
   font-weight: var(--title-weight);
- 
 }
 .profile .rating {
   grid-area: "rating";
@@ -45,11 +44,9 @@
 }
 
 @media screen and (min-width: 768px) {
-    .testimonial{
-   
+  .testimonial {
+  }
 }
-}
-
 
 @media screen and (min-width: 1024px) {
   .testimonial-content {
