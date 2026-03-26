@@ -1,10 +1,20 @@
+.hero .hero-img,
+.bottom-hero,
 .hero-img {
-  background-image: url(../img/mobile/homepage/banner\ homepage.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 360px;
   width: 100%;
   background-position: center;
+}
+
+.hero .hero-img {
+  background-image: url(../img/mobile/homepage/banner-homepage.png);
+}
+
+.bottom-hero,
+.hero-img {
+  background-image: url(../img/mobile/homepage/bg-footer.png);
 }
 
 .hero h2 {
@@ -16,12 +26,22 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hero .hero-img,
+  .bottom-hero,
   .hero-img {
-    background-image: url(../img/tablet/homepage/banner-tablet.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 620px;
     width: 100%;
+  }
+
+  .hero .hero-img {
+    background-image: url(../img/tablet/homepage/banner-tablet.png);
+  }
+
+  .bottom-hero,
+  .hero-img {
+    background-image: url(../img/tablet/homepage/bg-footer.png);
   }
 
   .hero h2 {
@@ -30,12 +50,22 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .hero .hero-img,
+  .bottom-hero,
   .hero-img {
-    background-image: url(../img/desktop/homepage/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 620px;
     width: 100%;
+  }
+
+  .hero .hero-img {
+    background-image: url(../img/desktop/homepage/banner.png);
+  }
+
+  .bottom-hero,
+  .hero-img {
+    background-image: url(../img/desktop/homepage/bg-footer.png);
   }
 
   .hero h2 {
@@ -50,6 +80,15 @@
 }
 
 @media screen and (min-width: 1920px) {
+  .hero .hero-img {
+    background-image: url(../img/desktop_large/homepage/banner.png);
+  }
+
+  .bottom-hero,
+  .hero-img {
+    background-image: url(../img/desktop_large/homepage/bg-footer.png);
+  }
+
   .hero h2 {
     margin: 6rem 20rem 0;
   }
