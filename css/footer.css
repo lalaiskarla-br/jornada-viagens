@@ -1,0 +1,30 @@
+footer .bg-content {
+  background-image: url(../img/mobile/homepage/bg-footer.png);
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+  footer .bg-content {
+    background-image: url(../img/tablet/homepage/bg-footer.png);
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  footer .bg-content {
+    background-image: url(../img/desktop/homepage/bg-footer.png);
+    background-size: cover;
+    height: 600px;
+  }
+}
+
+
+@media screen and (min-width: 1920px) {
+  footer .bg-content {
+    background-image: url(../img/desktop_large/homepage/bg-footer.png);
+    background-size: cover;
+    height: 600px;
+  }
+}
