@@ -17,6 +17,8 @@
   height: 220px;
   border-radius: 8px;
   padding: 2.5rem 1rem;
+  text-decoration: none;
+  color: var(--text-primary-color);
 }
 
 .card-categories picture {
