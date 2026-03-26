@@ -1,11 +1,10 @@
-.testimonial {
+/*.testimonial {
   margin: 0 24px;
-}
+} */
 .testimonial-content {
   display: flex;
   gap: 32px;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .testimonial-content article > p {
@@ -43,18 +42,11 @@
   font-size: 32px;
 }
 
-@media screen and (min-width: 768px) {
-  .testimonial {
-  }
-}
-
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
   .testimonial-content {
-    flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-around;
   }
 
-  .testimonial-content article {
-    width: 300px;
-  }
+ 
 }
