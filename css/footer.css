@@ -1,30 +1,70 @@
-footer .bg-content {
+.bg-content {
   background-image: url(../img/mobile/homepage/bg-footer.png);
   height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.footer-content {
+  background-color: var(--background-secondary-color);
+  text-align: center;
+  color: var(--text-tertiary-color);
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 28px;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.footer-content .footer-content-text > img {
+  width: 162px;
+  height: 40px;
+}
+
+.footer-content .footer-content-text p:nth-of-type(1) {
+  margin: 16px 0 8px;
+}
+
+.footer-content-socialmedia > p{
+  margin-bottom: 16px;
+}
+
 @media screen and (min-width: 768px) {
-  footer .bg-content {
+  .bg-content {
     background-image: url(../img/tablet/homepage/bg-footer.png);
     background-size: cover;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  footer .bg-content {
+  .bg-content {
     background-image: url(../img/desktop/homepage/bg-footer.png);
     background-size: cover;
     height: 600px;
   }
+
+  .footer-content {
+    padding: 52px 60px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .footer-content-text{
+    text-align: start;
+  }
 }
 
-
 @media screen and (min-width: 1920px) {
-  footer .bg-content {
+  .bg-content {
     background-image: url(../img/desktop_large/homepage/bg-footer.png);
     background-size: cover;
     height: 600px;
+  }
+
+  .footer-content {
+    padding: 52px 120px;
   }
 }
