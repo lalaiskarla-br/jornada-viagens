@@ -2,7 +2,6 @@
   display: flex;
   gap: 24px;
   flex-direction: column;
-  margin: 0 1.5rem;
 }
 
 .text-content {
@@ -47,9 +46,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .content {
-    margin: 0 3.75rem;
-  }
   .first-img {
     background-image: url(../img/tablet/homepage/gallery-1.png);
     background-size: cover;

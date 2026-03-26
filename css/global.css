@@ -31,6 +31,11 @@ body {
   color: var(--text-primary-color);
 }
 
+.categories, .destination, .payments, .testimonial {
+  margin: 0 24px;
+}
+
+
 .section-title h3, .bottom-hero {
   font-weight: var(--title-weight);
   font-size: 32px;
@@ -72,7 +77,17 @@ a {
   text-align: justify;
 }
 
+
+@media screen and (min-width:768px) {
+  .categories, .destination, .payments, .testimonial {
+  margin: 0 60px;
+}
+
+}
 @media screen and (min-width: 1024px) {
+     .categories, .destination, .payments, .testimonial {
+  margin: 0 120px;
+}
   .section-title h3, .bottom-hero {
     margin-top: 104px;
   }
@@ -86,3 +101,4 @@ a {
     transition: 0.3s ease;
   }
 }
+
