@@ -77,24 +77,24 @@
     font-size: 40px;
   }
   .card.japao {
-    background-image: url(../img/desktop/homepage/japao.png);
+    background-image: url(/jornada-viagens/img/desktop/homepage/japao.png);
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   .card.sanAndreas {
-    background-image: url(../img/desktop/homepage/san-andreas.png);
+    background-image: url(/jornada-viagens/img/desktop/homepage/san-andreas.png);
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   .card.paraiba {
-    background-image: url(../img/desktop/homepage/paraiba.png);
+    background-image: url(/jornada-viagens/img/desktop/homepage/paraiba.png);
     background-size: cover;
     background-repeat: no-repeat;
   }
   .card.manaus {
-    background-image: url(../img/desktop/homepage/manaus.png);
+    background-image: url(/jornada-viagens/img/desktop/homepage/manaus.png);
     background-size: cover;
     background-repeat: no-repeat;
   }
