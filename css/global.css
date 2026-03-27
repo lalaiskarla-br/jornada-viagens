@@ -31,13 +31,16 @@ body {
   color: var(--text-primary-color);
 }
 
-.categories, .destination, .payments, .testimonial {
+.categories,
+.destination,
+.payments,
+.testimonial,
+.package .hero .hero-img{
   margin: 0 24px;
 }
 
-
-.section-title h3, .bottom-hero {
-  font-weight: var(--title-weight);
+.section-title h3,
+.bottom-hero {
   font-size: 32px;
   text-align: center;
   margin-top: 88px;
@@ -54,6 +57,10 @@ body {
 a {
   cursor: pointer;
   text-decoration: none;
+}
+
+.nav-link--active {
+  border-bottom: 2px solid currentColor;
 }
 
 .button {
@@ -78,18 +85,24 @@ a {
   text-align: justify;
 }
 
-
-@media screen and (min-width:768px) {
-  .categories, .destination, .payments, .testimonial {
-  margin: 0 60px;
-}
-
+@media screen and (min-width: 768px) {
+  .categories,
+  .destination,
+  .payments,
+  .testimonial {
+    margin: 0 60px;
+  }
 }
 @media screen and (min-width: 1024px) {
-     .categories, .destination, .payments, .testimonial {
-  margin: 0 120px;
-}
-  .section-title h3, .bottom-hero {
+  .categories,
+  .destination,
+  .payments,
+  .testimonial,
+  .package .hero .hero-img {
+    margin: 0 120px;
+  }
+  .section-title h3,
+  .bottom-hero {
     margin-top: 104px;
   }
 
@@ -102,4 +115,3 @@ a {
     transition: 0.3s ease;
   }
 }
-

@@ -25,41 +25,46 @@
 
 .first-img {
   grid-area: "first-img";
-  background-image: url(../img/mobile/homepage/gallery-1.png);
+  background-image: url(/jornada-viagens/img/mobile/homepage/gallery-1.png);
   background-size: cover;
   background-position: center;
 }
 
 .second-img {
   grid-area: "second-img";
-  background-image: url(../img/mobile/homepage/gallery-2.png);
+  background-image: url(/jornada-viagens/img/mobile/homepage/gallery-2.png);
   background-size: cover;
   background-position: center;
 }
 
 .third-img {
   grid-area: "third-img";
-  background-image: url(../img/mobile/homepage/gallery-3.png);
+  background-image: url(/jornada-viagens/img/mobile/homepage/gallery-3.png);
   grid-column: span 2;
   background-position: center;
   background-size: cover;
 }
 
+
+.payments .content .text-content > span {
+  font-size: 40px;
+  font-weight: var(--title-weight);
+}
 @media screen and (min-width: 768px) {
   .first-img {
-    background-image: url(../img/tablet/homepage/gallery-1.png);
+    background-image: url(/jornada-viagens/img/tablet/homepage/gallery-1.png);
     background-size: cover;
     background-position: center;
   }
 
   .second-img {
-    background-image: url(../img/tablet/homepage/gallery-2.png);
+    background-image: url(/jornada-viagens/img/tablet/homepage/gallery-2.png);
     background-size: cover;
     background-position: center;
   }
 
   .third-img {
-    background-image: url(../img/tablet/homepage/gallery-3.png);
+    background-image: url(/jornada-viagens/img/tablet/homepage/gallery-3.png);
     background-position: center;
     background-size: cover;
   }
@@ -74,19 +79,19 @@
     width: 28rem;
   }
   .first-img {
-    background-image: url(../img/desktop/homepage/gallery-1.png);
+    background-image: url(/jornada-viagens/img/desktop/homepage/gallery-1.png);
     background-size: cover;
     background-position: center;
   }
 
   .second-img {
-    background-image: url(../img/desktop/homepage/gallery-2.png);
+    background-image: url(/jornada-viagens/img/desktop/homepage/gallery-2.png);
     background-size: cover;
     background-position: center;
   }
 
   .third-img {
-    background-image: url(../img/desktop/homepage/gallery-3.png);
+    background-image: url(/jornada-viagens/img/desktop/homepage/gallery-3.png);
     background-position: center;
     background-size: cover;
   }

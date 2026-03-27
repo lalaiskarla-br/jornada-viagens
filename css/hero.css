@@ -1,26 +1,26 @@
 .hero .hero-img,
-.bottom-hero,
-.hero-img {
+.bottom-hero .hero-img,
+.package .hero {
   background-repeat: no-repeat;
   background-size: cover;
-  height: 360px;
   width: 100%;
   background-position: center;
-
 }
 
+.hero .hero-img,
+.bottom-hero .hero-img {
+  height: 360px;
+}
 
-
-.hero .hero-img {
+.index .hero > .hero-img {
   background-image: url(../img/mobile/homepage/banner-homepage.png);
 }
 
-.bottom-hero,
-.hero-img {
+.index .bottom-hero > .hero-img {
   background-image: url(../img/mobile/homepage/bg-footer.png);
 }
 
-.hero h2 {
+.index .hero h2 {
   font-size: 20px;
   font-weight: var(--text-weight);
   text-align: center;
@@ -28,52 +28,99 @@
   line-height: 1.5;
 }
 
+.package .hero {
+  display: flex;
+  color: var(--text-secondary-color);
+  align-items: center;
+  background-image: url(../img/mobile/destino/banner-destino.png);
+  height: 460px;
+}
+
+.package .hero-img > h1 {
+  font-size: 48px;
+}
+.package .hero-img > hr {
+  margin: 16px 0 32px;
+}
+
+.package .hero-img > p {
+  font-size: 20px;
+  color: var(--text-secondary-color);
+  font-weight: var(--text-weight);
+  line-height: 150%;
+}
+
 @media screen and (min-width: 768px) {
-  .hero .hero-img,
-  .bottom-hero,
-  .hero-img {
+  .hero > .hero-img,
+  .bottom-hero > .hero-img {
     background-repeat: no-repeat;
     background-size: cover;
     height: 620px;
     width: 100%;
   }
 
-  .hero .hero-img {
+  .index .hero > .hero-img {
     background-image: url(../img/tablet/homepage/banner-tablet.png);
   }
 
-  .bottom-hero,
-  .hero-img {
+  .index .bottom-hero > .hero-img {
     background-image: url(../img/tablet/homepage/bg-footer.png);
   }
 
   .hero h2 {
     margin: 5rem 3.75rem 0;
   }
+
+  .package .hero {
+    background-image: url(/jornada-viagens/img/tablet/destino/banner-destino.png);
+    background-position: center;
+    height: 620px;
+    display: flex;
+  }
+
+  .package .hero .hero-img {
+    align-content: end;
+    margin: 0 120px 106px;
+  }
+
+  .package .hero-img > p {
+    font-size: 32px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-  .hero .hero-img,
-  .bottom-hero,
-  .hero-img {
+  .index .hero > .hero-img,
+  .index .bottom-hero > .hero-img {
     background-repeat: no-repeat;
     background-size: cover;
     height: 620px;
     width: 100%;
   }
 
-  .hero .hero-img {
+  .index .hero > .hero-img {
     background-image: url(../img/desktop/homepage/banner.png);
   }
 
-  .bottom-hero,
-  .hero-img {
+  .index .bottom-hero > .hero-img {
     background-image: url(../img/desktop/homepage/bg-footer.png);
   }
 
   .hero h2 {
     margin: 6rem 7.5rem 0;
   }
+
+  .package .hero {
+    background-image: url(../img/desktop/destino/banner-destinos.png);
+  }
+
+  .package .hero .hero-img {
+    width: 40vw;
+        align-content: center;
+          margin: 0 120px ;
+  }
+
+  
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -83,12 +130,11 @@
 }
 
 @media screen and (min-width: 1920px) {
-  .hero .hero-img {
+  .index .hero > .hero-img {
     background-image: url(../img/desktop_large/homepage/banner.png);
   }
 
-  .bottom-hero,
-  .hero-img {
+  .index .bottom-hero > .hero-img {
     background-image: url(../img/desktop_large/homepage/bg-footer.png);
   }
 
