@@ -35,8 +35,9 @@ body {
 .destination,
 .payments,
 .testimonial,
-.package .hero .hero-img{
-  margin: 0 24px;
+.package .hero .hero-img {
+  margin: 0 auto;
+  max-width: 312px;
 }
 
 .section-title h3,
@@ -89,8 +90,10 @@ a {
   .categories,
   .destination,
   .payments,
-  .testimonial {
-    margin: 0 60px;
+  .testimonial,
+  .package .hero .hero-img {
+    margin: 0 auto;
+    max-width: 648px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -99,8 +102,10 @@ a {
   .payments,
   .testimonial,
   .package .hero .hero-img {
-    margin: 0 120px;
+    margin: 0 auto;
+    max-width: 900px;
   }
+
   .section-title h3,
   .bottom-hero {
     margin-top: 104px;
@@ -113,5 +118,16 @@ a {
   .button:hover {
     background-color: var(--secondary-color);
     transition: 0.3s ease;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .categories,
+  .destination,
+  .payments,
+  .testimonial,
+  .package .hero .hero-img {
+    margin: 0 auto;
+    max-width: 1200px;
   }
 }
