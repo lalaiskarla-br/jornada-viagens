@@ -20,6 +20,10 @@
   background-image: url(../img/mobile/homepage/bg-footer.png);
 }
 
+.package .bottom-hero > .hero-img {
+  background-image: url(../img/mobile/destino/bg-footer.png);
+}
+
 .index .hero h2 {
   font-size: 20px;
   font-weight: var(--text-weight);
@@ -86,6 +90,10 @@
   .package .hero-img > p {
     font-size: 32px;
   }
+
+  .package .bottom-hero > .hero-img {
+    background-image: url(../img/tablet/destino/bg-footer.png);
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -115,12 +123,13 @@
 
   .package .hero .hero-img {
     width: 40vw;
-        align-content: center;
-          margin: 0 120px ;
+    align-content: center;
+    margin: 0 120px;
   }
 
-  
-
+  .package .bottom-hero > .hero-img {
+    background-image: url(../img/desktop/destino/bg-footer.png);
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -137,8 +146,16 @@
   .index .bottom-hero > .hero-img {
     background-image: url(../img/desktop_large/homepage/bg-footer.png);
   }
+  
 
   .hero h2 {
     margin: 6rem 20rem 0;
   }
+
+    .package .hero {
+    background-image: url(../img/desktop_large/destino/banner.png);
+  }
+  .package .bottom-hero > .hero-img {
+  background-image: url(../img/desktop_large/destino/bg-footer.png);
+}
 }
