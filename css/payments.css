@@ -25,26 +25,44 @@
 
 .first-img {
   grid-area: "first-img";
-  background-image: url(/jornada-viagens/img/mobile/homepage/gallery-1.png);
   background-size: cover;
   background-position: center;
 }
 
+.index .first-img {
+  background-image: url(/jornada-viagens/img/mobile/homepage/gallery-1.png);
+}
+
+.package .first-img {
+  background-image: url(/jornada-viagens/img/mobile/destino/gallery-1.png);
+}
 .second-img {
   grid-area: "second-img";
-  background-image: url(/jornada-viagens/img/mobile/homepage/gallery-2.png);
   background-size: cover;
   background-position: center;
 }
 
+.index .second-img {
+  background-image: url(/jornada-viagens/img/mobile/homepage/gallery-2.png);
+}
+
+.package .second-img {
+  background-image: url(/jornada-viagens/img/mobile/destino/gallery-2.png);
+}
 .third-img {
   grid-area: "third-img";
-  background-image: url(/jornada-viagens/img/mobile/homepage/gallery-3.png);
   grid-column: span 2;
   background-position: center;
   background-size: cover;
 }
 
+.index .third-img {
+  background-image: url(/jornada-viagens/img/mobile/homepage/gallery-3.png);
+}
+
+.package .third-img {
+  background-image: url(/jornada-viagens/img/mobile/destino/gallery-3.png);
+}
 
 .payments .content .text-content > span {
   font-size: 40px;
@@ -52,21 +70,42 @@
 }
 @media screen and (min-width: 768px) {
   .first-img {
-    background-image: url(/jornada-viagens/img/tablet/homepage/gallery-1.png);
     background-size: cover;
     background-position: center;
+  }
+
+  .index .first-img {
+    background-image: url(/jornada-viagens/img/tablet/homepage/gallery-1.png);
+  }
+
+  .package .first-img {
+    background-image: url(/jornada-viagens/img/tablet/destino/gallery-1.png);
   }
 
   .second-img {
-    background-image: url(/jornada-viagens/img/tablet/homepage/gallery-2.png);
     background-size: cover;
     background-position: center;
   }
 
+  .index .second-img {
+    background-image: url(/jornada-viagens/img/tablet/homepage/gallery-2.png);
+  }
+
+  .package .second-img {
+    background-image: url(/jornada-viagens/img/tablet/destino/gallery-2.png);
+  }
+
   .third-img {
-    background-image: url(/jornada-viagens/img/tablet/homepage/gallery-3.png);
     background-position: center;
     background-size: cover;
+  }
+
+  .index .third-img {
+    background-image: url(/jornada-viagens/img/tablet/homepage/gallery-3.png);
+  }
+
+  .package .third-img {
+    background-image: url(/jornada-viagens/img/tablet/destino/gallery-3.png);
   }
 }
 
@@ -79,20 +118,41 @@
     width: 28rem;
   }
   .first-img {
-    background-image: url(/jornada-viagens/img/desktop/homepage/gallery-1.png);
     background-size: cover;
     background-position: center;
+  }
+
+  .index .first-img {
+    background-image: url(/jornada-viagens/img/desktop/homepage/gallery-1.png);
+  }
+
+  .package .first-img {
+    background-image: url(/jornada-viagens/img/desktop/destino/gallery-1.png);
   }
 
   .second-img {
-    background-image: url(/jornada-viagens/img/desktop/homepage/gallery-2.png);
     background-size: cover;
     background-position: center;
   }
 
+  .index .second-img {
+    background-image: url(/jornada-viagens/img/desktop/homepage/gallery-2.png);
+  }
+
+  .package .second-img {
+    background-image: url(/jornada-viagens/img/desktop/destino/gallery-2.png);
+  }
+
   .third-img {
-    background-image: url(/jornada-viagens/img/desktop/homepage/gallery-3.png);
     background-position: center;
     background-size: cover;
+  }
+
+  .index .third-img {
+    background-image: url(/jornada-viagens/img/desktop/homepage/gallery-3.png);
+  }
+
+  .package .third-img {
+    background-image: url(/jornada-viagens/img/desktop/destino/gallery-3.png);
   }
 }
