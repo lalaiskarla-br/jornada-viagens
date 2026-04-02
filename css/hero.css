@@ -1,6 +1,7 @@
 .hero .hero-img,
 .bottom-hero .hero-img,
-.package .hero, .blog .hero{
+.package .hero,
+.blog .hero {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -28,7 +29,7 @@
   line-height: 1.5;
 }
 
-/* PÁGINA DEMAIS PÁGINAS*/
+/* DEMAIS PÁGINAS*/
 .package .hero,
 .blog .hero {
   display: flex;
@@ -84,30 +85,37 @@
   .index .bottom-hero > .hero-img {
     background-image: url(../img/tablet/homepage/bg-footer.png);
   }
-
   .hero h2 {
     margin: 5rem 3.75rem 0;
+  }
+
+  /* DEMAIS PÁGINAS*/
+  .package .hero,
+  .blog .hero {
+    background-position: center;
+    height: 620px;
+    display: flex;
+  }
+  .package .hero .hero-img,
+  .blog .hero .hero-img {
+    align-content: center;
+  }
+  .package .hero-img > p,
+  .blog .hero-img > p{
+    font-size: 32px;
   }
 
   /* PÁGINA PACOTES DE VIAGEM */
   .package .hero {
     background-image: url(/jornada-viagens/img/tablet/destino/banner-destino.png);
-    background-position: center;
-    height: 620px;
-    display: flex;
   }
-
-  .package .hero .hero-img {
-    align-content: end;
-    margin: 0 120px 106px;
-  }
-
-  .package .hero-img > p {
-    font-size: 32px;
-  }
-
   .package .bottom-hero > .hero-img {
     background-image: url(../img/tablet/destino/bg-footer.png);
+  }
+
+  /* PÁGINA BLOG  */
+  .blog .hero {
+    background-image: url(../img/tablet/blog/banner-blog.png);
   }
 }
 
@@ -132,19 +140,26 @@
     margin: 6rem 7.5rem 0;
   }
 
-  /* PÁGINA PACOTES DE VIAGEM */
-  .package .hero {
-    background-image: url(../img/desktop/destino/banner-destinos.png);
-  }
-
-  .package .hero .hero-img {
+  /* DEMAIS PÁGINAS*/
+  .package .hero .hero-img,
+  .blog .hero .hero-img {
     width: 40vw;
     align-content: center;
     margin: 0 120px;
   }
 
+  /* PÁGINA PACOTES DE VIAGEM */
+  .package .hero {
+    background-image: url(../img/desktop/destino/banner-destinos.png);
+  }
+
   .package .bottom-hero > .hero-img {
     background-image: url(../img/desktop/destino/bg-footer.png);
+  }
+
+  /* PÁGINA BLOG */
+  .blog .hero {
+    background-image: url(../img/desktop/blog/banner-blog.png);
   }
 }
 
@@ -173,5 +188,10 @@
   }
   .package .bottom-hero > .hero-img {
     background-image: url(../img/desktop_large/destino/bg-footer.png);
+  }
+
+  /* PÁGINA BLOG */
+  .blog .hero {
+    background-image: url(../img/desktop_large/blog/banner-blog.png);
   }
 }
