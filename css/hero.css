@@ -1,6 +1,6 @@
 .hero .hero-img,
 .bottom-hero .hero-img,
-.package .hero {
+.package .hero, .blog .hero{
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -20,10 +20,6 @@
   background-image: url(../img/mobile/homepage/bg-footer.png);
 }
 
-.package .bottom-hero > .hero-img {
-  background-image: url(../img/mobile/destino/bg-footer.png);
-}
-
 .index .hero h2 {
   font-size: 20px;
   font-weight: var(--text-weight);
@@ -32,26 +28,44 @@
   line-height: 1.5;
 }
 
-.package .hero {
+/* PÁGINA DEMAIS PÁGINAS*/
+.package .hero,
+.blog .hero {
   display: flex;
   color: var(--text-secondary-color);
   align-items: center;
-  background-image: url(../img/mobile/destino/banner-destino.png);
   height: 460px;
 }
 
-.package .hero-img > h1 {
+.package .hero-img > h1,
+.blog .hero-img > h1 {
   font-size: 48px;
 }
-.package .hero-img > hr {
+.package .hero-img > hr,
+.blog .hero-img > hr {
   margin: 16px 0 32px;
 }
 
-.package .hero-img > p {
+.package .hero-img > p,
+.blog .hero-img > p {
   font-size: 20px;
   color: var(--text-secondary-color);
   font-weight: var(--text-weight);
   line-height: 150%;
+}
+
+/* PÁGINA PACOTES DE VIAGEM */
+.package .hero {
+  background-image: url(../img/mobile/destino/banner-destino.png);
+}
+
+.package .bottom-hero > .hero-img {
+  background-image: url(../img/mobile/destino/bg-footer.png);
+}
+
+/* PÁGINA BLOG  */
+.blog .hero {
+  background-image: url(../img/mobile/blog/banner-blogpost.png);
 }
 
 @media screen and (min-width: 768px) {
@@ -75,6 +89,7 @@
     margin: 5rem 3.75rem 0;
   }
 
+  /* PÁGINA PACOTES DE VIAGEM */
   .package .hero {
     background-image: url(/jornada-viagens/img/tablet/destino/banner-destino.png);
     background-position: center;
@@ -117,6 +132,7 @@
     margin: 6rem 7.5rem 0;
   }
 
+  /* PÁGINA PACOTES DE VIAGEM */
   .package .hero {
     background-image: url(../img/desktop/destino/banner-destinos.png);
   }
@@ -146,16 +162,16 @@
   .index .bottom-hero > .hero-img {
     background-image: url(../img/desktop_large/homepage/bg-footer.png);
   }
-  
 
   .hero h2 {
     margin: 6rem 20rem 0;
   }
 
-    .package .hero {
+  /* PÁGINA PACOTES DE VIAGEM */
+  .package .hero {
     background-image: url(../img/desktop_large/destino/banner.png);
   }
   .package .bottom-hero > .hero-img {
-  background-image: url(../img/desktop_large/destino/bg-footer.png);
-}
+    background-image: url(../img/desktop_large/destino/bg-footer.png);
+  }
 }
