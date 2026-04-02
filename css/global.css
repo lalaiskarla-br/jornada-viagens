@@ -60,7 +60,7 @@ a {
   text-decoration: none;
 }
 
-.nav-link--active {
+.active {
   border-bottom: 2px solid currentColor;
 }
 
