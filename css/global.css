@@ -35,9 +35,10 @@ body {
 .destination,
 .payments,
 .testimonial,
-.package .hero .hero-img {
+.package .hero .hero-img, .blog .hero .hero-img {
   margin: 0 auto;
   max-width: 312px;
+  align-self: end;
 }
 
 .section-title h3,
@@ -91,7 +92,7 @@ a {
   .destination,
   .payments,
   .testimonial,
-  .package .hero .hero-img {
+  .package .hero .hero-img, .blog .hero .hero-img {
     margin: 0 auto;
     max-width: 648px;
   }
@@ -101,7 +102,7 @@ a {
   .destination,
   .payments,
   .testimonial,
-  .package .hero .hero-img {
+  .package .hero .hero-img, .blog .hero .hero-img {
     margin: 0 auto;
     max-width: 900px;
   }
@@ -126,7 +127,7 @@ a {
   .destination,
   .payments,
   .testimonial,
-  .package .hero .hero-img {
+  .package .hero .hero-img, .blog .hero .hero-img {
     margin: 0 auto;
     max-width: 1200px;
   }
