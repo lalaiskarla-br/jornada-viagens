@@ -1,7 +1,8 @@
 .hero .hero-img,
 .bottom-hero .hero-img,
 .package .hero,
-.blog .hero {
+.blog .hero,
+.contact .hero {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -31,7 +32,8 @@
 
 /* DEMAIS PÁGINAS*/
 .package .hero,
-.blog .hero {
+.blog .hero,
+.contact .hero {
   display: flex;
   color: var(--text-secondary-color);
   align-items: center;
@@ -39,16 +41,19 @@
 }
 
 .package .hero-img > h1,
-.blog .hero-img > h1 {
+.blog .hero-img > h1,
+.contact .hero-img > h1 {
   font-size: 48px;
 }
 .package .hero-img > hr,
-.blog .hero-img > hr {
+.blog .hero-img > hr,
+.contact .hero-img > hr {
   margin: 16px 0 32px;
 }
 
 .package .hero-img > p,
-.blog .hero-img > p {
+.blog .hero-img > p,
+.contact .hero-img > p {
   font-size: 20px;
   color: var(--text-secondary-color);
   font-weight: var(--text-weight);
@@ -68,6 +73,16 @@
 .blog .hero {
   background-image: url(../img/mobile/blog/banner-blogpost.png);
 }
+
+/* PÁGINA CONTATO  */
+.contact .hero {
+  background-image: url(../img/mobile/contato/banner-contato.png);
+}
+
+.contact .bottom-hero > .hero-img {
+  background-image: url(../img/mobile/contato/bg-footer.png);
+}
+
 
 @media screen and (min-width: 768px) {
   .hero > .hero-img,
@@ -91,17 +106,20 @@
 
   /* DEMAIS PÁGINAS*/
   .package .hero,
-  .blog .hero {
+  .blog .hero,
+  .contact .hero {
     background-position: center;
     height: 620px;
     display: flex;
   }
   .package .hero .hero-img,
-  .blog .hero .hero-img {
+  .blog .hero .hero-img,
+  .contact .hero .hero-img {
     align-content: center;
   }
   .package .hero-img > p,
-  .blog .hero-img > p{
+  .blog .hero-img > p,
+  .contact .hero-img > p {
     font-size: 32px;
   }
 
@@ -117,6 +135,16 @@
   .blog .hero {
     background-image: url(../img/tablet/blog/banner-blog.png);
   }
+
+  /* PÁGINA CONTATO  */
+  .contact .hero {
+    background-image: url(../img/tablet/contato/banner-contato.png);
+  }
+
+.contact .bottom-hero > .hero-img {
+  background-image: url(../img/tablet/contato/bg-footer.png);
+}
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -142,7 +170,8 @@
 
   /* DEMAIS PÁGINAS*/
   .package .hero .hero-img,
-  .blog .hero .hero-img {
+  .blog .hero .hero-img,
+  .contact .hero .hero-img {
     width: 40vw;
     align-content: center;
     margin: 0 120px;
@@ -161,6 +190,16 @@
   .blog .hero {
     background-image: url(../img/desktop/blog/banner-blog.png);
   }
+
+  
+  /* PÁGINA CONTATO  */
+  .contact .hero {
+    background-image: url(../img/desktop/contato/banner-contato.png);
+  }
+
+  .contact .bottom-hero > .hero-img {
+  background-image: url(../img/desktop/contato/bg-footer.png);
+}
 }
 
 @media screen and (min-width: 1440px) {
@@ -194,4 +233,12 @@
   .blog .hero {
     background-image: url(../img/desktop_large/blog/banner-blog.png);
   }
+
+    /* PÁGINA CONTATO  */
+  .contact .hero {
+    background-image: url(../img/desktop_large/contato/banner-contato.png);
+  }
+    .contact .bottom-hero > .hero-img {
+  background-image: url(../img/desktop_large/contato/bg-footer.png);
+}
 }
