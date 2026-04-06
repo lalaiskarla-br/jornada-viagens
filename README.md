@@ -15,7 +15,7 @@ O objetivo foi praticar:
 ___  
 
 ## 🖥️ Preview
-👉 Acesse o projeto: (cole aqui o link do GitHub Pages depois, se publicar)
+👉 ([Clique aqui para acessar o projeto](https://lalaiskarla-br.github.io/jornada-viagens/))
 ___
 ## 🚀 Tecnologias utilizadas
 - HTML5 → estrutura semântica
