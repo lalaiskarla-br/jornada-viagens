@@ -24,6 +24,8 @@ ___
 ___
 
 ## 📐 Arquitetura do projeto
+
+ ```
 jornada-viagens/
 │
 ├── index.html
@@ -33,7 +35,7 @@ jornada-viagens/
 ├── css/
 ├── img/
 └── fonts/
-
+ ```
 ___
 
 ## ✨ Funcionalidades
