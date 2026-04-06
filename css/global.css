@@ -85,6 +85,7 @@ a {
   font-size: 20px;
   font-weight: var(--text-weight);
   text-align: justify;
+  line-height: 32px;
 }
 
 @media screen and (min-width: 768px) {
@@ -127,7 +128,7 @@ a {
   .destination,
   .payments,
   .testimonial,
-  .package .hero .hero-img, .blog .hero .hero-img {
+  .package .hero .hero-img, .blog .hero .hero-img{
     margin: 0 auto;
     max-width: 1200px;
   }

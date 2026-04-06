@@ -6,7 +6,6 @@
 }
 
 .destination-items article {
-  width: 360px;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -15,17 +14,39 @@
 
 @media screen and (min-width: 768px) {
   .destination-items article {
-    width: 648px;
+    /*width: 648px; */
+  }
+
+  /* PAGÍNA BLOG*/
+  .blog .destination .coming {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .blog .destination .destination-items .coming > figure {
+    width: 50%;
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .blog .destination-items {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+  }
+
+    .blog .destination .destination-items  > figure {
+    width: 100%;
+  }
+}
 @media screen and (min-width: 1440px) {
   .destination-items {
     flex-direction: row;
     flex-wrap: nowrap;
   }
 
-  .destination-items article {
-    width: 600px;
+  .blog .text-content {
+    width: 100%;
   }
 }
