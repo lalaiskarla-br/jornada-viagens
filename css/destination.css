@@ -39,6 +39,12 @@
     .blog .destination .destination-items  > figure {
     width: 100%;
   }
+
+   /* PAGÍNA BLOG*/
+  .blog .destination .content-post {
+    flex-wrap: wrap;
+  }
+
 }
 @media screen and (min-width: 1440px) {
   .destination-items {
