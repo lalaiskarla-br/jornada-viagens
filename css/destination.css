@@ -17,8 +17,30 @@
   .destination-items article {
     width: 648px;
   }
+
+  /* PAGÍNA BLOG*/
+  .blog .destination .coming {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .blog .destination .destination-items .coming > figure {
+    width: 50%;
+  }
+
+    .blog .destination-items article {
+    width: 90%;
+  }
 }
 
+@media screen and (min-width: 1024px) {
+  .blog .destination-items {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+  }
+}
 @media screen and (min-width: 1440px) {
   .destination-items {
     flex-direction: row;
