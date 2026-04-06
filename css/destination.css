@@ -6,7 +6,6 @@
 }
 
 .destination-items article {
-  width: 360px;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -15,7 +14,7 @@
 
 @media screen and (min-width: 768px) {
   .destination-items article {
-    width: 648px;
+    /*width: 648px; */
   }
 
   /* PAGÍNA BLOG*/
@@ -27,10 +26,6 @@
   .blog .destination .destination-items .coming > figure {
     width: 50%;
   }
-
-    .blog .destination-items article {
-    width: 90%;
-  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -40,6 +35,10 @@
     gap: 40px;
     justify-content: center;
   }
+
+    .blog .destination .destination-items  > figure {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 1440px) {
   .destination-items {
@@ -47,7 +46,7 @@
     flex-wrap: nowrap;
   }
 
-  .destination-items article {
-    width: 600px;
+  .blog .text-content {
+    width: 100%;
   }
 }

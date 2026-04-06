@@ -128,7 +128,7 @@ a {
   .destination,
   .payments,
   .testimonial,
-  .package .hero .hero-img, .blog .hero .hero-img {
+  .package .hero .hero-img, .blog .hero .hero-img{
     margin: 0 auto;
     max-width: 1200px;
   }
